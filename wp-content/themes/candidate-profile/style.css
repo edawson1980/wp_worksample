@@ -1,6 +1,5 @@
 /*
 Theme Name: Candidate Profile
-Theme URI:
 Author: Erin Dawson
 Author URI: http://www.erinedawson.com
 Description: This is a first attempt at a custom WordPress theme.
@@ -11,3 +10,248 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+
+body {
+  font-family:'Nunito', sans-serif;
+  background-color: #e8efff;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  /*height: 100%;*/
+
+}
+header {
+  height: 610px;
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/HUIJJB2LZ2.jpg");
+  /*KEEP THIS IMAGE HERE.*/
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.first_transition {
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");
+  height: 400px;
+  background-position: right;
+  background-size: cover;
+
+}
+
+.first_transition h4 {
+  color: black;
+  font-family: 'Kranky', cursive;
+  /*font-family: 'Cinzel', serif;*/
+  font-size: 65px;
+  text-shadow: none;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 7%;
+
+}
+
+.second_transition {
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/F8WTEN2NJ4.jpg");
+  height: 300px;
+  background-position: right;
+  background-size: cover;
+}
+
+.second_transition h1 {
+  color: white;
+  font-family: 'Kranky', cursive;
+  /*font-family: 'Cinzel', serif;*/
+  font-size: 65px;
+  text-shadow: none;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: 10%;
+}
+
+
+.third_transition {
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/L6966LD98C.jpg");
+  height: 350px;
+  background-position: right;
+  background-size: cover;
+  margin-top: 10%;
+  margin-bottom: 15px;
+
+}
+
+.third_transition h2 {
+  color: white;
+  font-family: 'Kranky', cursive;
+  /*font-family: 'Cinzel', serif;*/
+  font-size: 65px;
+  text-shadow: none;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 7%;
+}
+
+
+h1 {
+  color: white;
+  margin-left: 5%;
+}
+
+ul {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+li {
+  font-size: 19px;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-family:'Nunito', sans-serif;
+  font-weight: bold;
+  /*text-transform: lowercase;*/
+}
+
+a:visited {
+  text-decoration:none;
+}
+a:hover {
+  color: gray;
+}
+
+
+.myphoto {
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+  border: 4px solid #3a3c40;
+  border-radius: 5px;
+
+}
+
+.about {
+  text-align: center;
+}
+
+.profile {
+  height: 300px;
+  margin-bottom: -5px;
+}
+
+.screenshot {
+  margin-bottom: 15px;
+  margin-left: 20%;
+  width: 600px;
+  height: 350px;
+  box-shadow: 3px 3px 3px #888888;
+  border: 1.5px solid #0F0F0F;
+  text-align: center;
+}
+
+.screenshot:active {
+  transform: translateY(4px)
+}
+
+
+.projects {
+  /*align-items: center;*/
+}
+
+.intro {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin: -10px;
+}
+
+.intro-text {
+  font-family: 'Kranky', cursive;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 15%;
+  margin: -5%;
+}
+
+
+.description {
+  margin-left: 5%;
+  float: left;
+
+}
+
+main {
+  /*display: flex;
+  justify-content: space-around;*/
+
+}
+
+
+.wrapper {
+  /*background: "../assets/photos/typewriter_rustic_copy.jpg";*/
+  /*background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4U560BJ470.jpg");*/
+  background-color: #adb3bf;
+  /*margin:  20px;*/
+  border: 6px solid #3a3c40;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+/*p {
+  display: flex;
+  flex-direction: column-reverse;
+}*/
+
+footer a{
+  margin: auto 20px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2px solid #3a3c40; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #421010; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-family:'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
