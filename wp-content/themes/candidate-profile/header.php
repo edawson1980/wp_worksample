@@ -14,13 +14,16 @@
     <div class="wrapper">
     <header>
       <h1>Candidate Profile</h1>
-      <nav>
-        <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CAMPAIGNS</a></li>
-          <li><a href="#">GET INVOLVED</a></li>
-        </ul>
-      </nav>
+
+      <?php
+        $defaults = array (
+          'container' => false,
+          'theme_location' => 'primary-menu',
+        );
+
+        wp_nav_menu($defaults);
+
+      ?>
 
 
     </header>
