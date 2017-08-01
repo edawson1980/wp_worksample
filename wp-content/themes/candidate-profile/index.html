@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="##6D5C89">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#6D5C89">
+    <title>Erin E. Dawson</title>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+    <header>
+      <h1>erin e. dawson</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="intro">
+        <h2>A New Day</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+      </div>
+
+    </header>
+
+    
+
+    <main>
+
+
+
+    <div id="page1" class="about">
+      <a id="about" class="smooth"></a>
+      <div class="first_transition">
+        <h4>about me</h4>
+
+      </div>
+        <p>I'm a creative problem solver who is fueled by a passion for uncovering the truth in mystery.</p>
+        <p>tenacious and unflagging in my pursuits, I don't stop until the work is done.</p><br>
+        <!-- <p>dc-based creative.</p><br> -->
+        <p>passionate advocate for social justice.</p><br>
+        <p>book lover.</p><br>
+        <p>also, fond of dogs.</p><br>
+    </div>
+
+
+
+    <div id="page2">
+      <a id="projects" class="smooth"></a>
+      <div class="second_transition">
+        <h1>work</h1>
+
+      </div>
+      <div class="projects">
+        <h4>
+          <a href="https://story-doc.herokuapp.com/" target="_blank"><img src="projects/storydoc.png" class="screenshot" alt="storydoc screenshot"></a>
+          <p class="description">
+            <a href="https://github.com/edawson1980/story-doc" target="_blank">StoryDoc</a> is an application that provides a platform for documentary photographers.  a StoryDoc user can package photos and text into individual stories.  this offers the user a clean and organized method for both storing and distributing their work.  StoryDoc was built entirely in Rails over five days in April 2017.
+          </p><br>
+        </h4>
+
+        <h4>
+          <a href="http://www.erinedawson.com/library-finder/" target="_blank"><img src="projects/bookworm.png" class="screenshot" alt="bookworm screenshot"></a>
+          <p class="description"><a href="https://github.com/edawson1980/library-finder" target="_blank">BookWorm</a> aims to make reading materials more accessible.  To that end, BookWorm provides location information for the DC Public Library System, as well as a feature that allows for online book searches.  BookWorm was built entirely in React over three days in June 2017.</p><br>
+        </h4>
+
+
+        <h4>
+          <a href="http://www.erinedawson.com/project1/" target="_blank"><img src="projects/simon.png" class="screenshot" alt="simon screenshot"></a>
+          <p class="description"><a href="https://github.com/edawson1980/project1" target="_blank">Simon</a> is a Javascript version of the classic 80s game.</p><br>
+        </h4>
+
+        <h4>
+          <a href="http://www.erinedawson.com/weatro/#/stations" target="_blank"><img src="projects/weatro.png" class="screenshot" alt="weatro screenshot"></a>
+          <p class="description"><a href="https://github.com/edawson1980/weatro" target="_blank">Weatro</a> allows the user to retrieve real-time train arrival data, and real-time weather data, for any rail station in the DC Metro network (WMATA).  Weatro was built as a group project, and uses a Rails back-end with an Angular front-end.</p><br>
+        </h4>
+      </div>
+    </div>
+
+
+<div id="page3">
+  <a id="contact" class="smooth"></a>
+  <div class="third_transition">
+    <h2>get in touch</h2>
+
+  </div>
+
+  <div class="myphoto">
+    <img src="assets/photos/magnolia_resize.jpg"  class="profile" alt="Erin Dawson">
+  </div>
+
+  <div class="info">
+    <p><a href="mailto:erinedawson@gmail.com">erinedawson@gmail.com</a></p><br>
+    <p>(202) 360 - 5474</p><br>
+    <p>adams morgan, washington dc</p><br>
+    <p><a href="assets/documents/portfolioresume.pdf" target="_blank">my resume</a></p>
+  </div>
+</div>
+
+
+  </main>
+
+    <footer>
+      <a target="_blank" title="connect with me on linkedin" href="https://www.linkedin.com/in/erinedawson/"><img alt="connect with me on linkedin" src="assets/logos/Webp.net-resizeimage.png"></a>
+      <a target="_blank" title="follow me on instagram" href="http://www.instagram.com/edawson1980"><img alt="follow me on instagram" src="assets/logos/glyph-logo_may2016.png"></a>
+      <a target="_blank" title="check me out on github" href="https://github.com/edawson1980"><img alt="follow me on github" src="assets/logos/github-mark-64px.png"></a>
+
+
+    </footer>
+  </div>
+
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+  </script>
+
+  </body>
+</html>
