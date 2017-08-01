@@ -20,13 +20,14 @@ this comment is what tells WP that we have a custom Template
 
 </div>
 
-<section>
+<div class="sidebar">
+  <h3>We Believe:</h3>
   <ul>
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
   </ul>
-</section>
+</div>
 
 
 <?php get_footer(); ?>
