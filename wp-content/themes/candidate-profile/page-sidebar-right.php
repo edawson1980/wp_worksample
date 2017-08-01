@@ -25,7 +25,6 @@ this comment is what tells WP that we have a custom Template
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
     <li>At vero eos et accusamus et iusto odio dignissimos</li>
-
   </ul>
 </section>
 
